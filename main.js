@@ -74,7 +74,7 @@ const renderProductsDetails = (product) => {
     productDetailsElement.querySelector('.btn_buy').addEventListener(
         'click',
         () => {
-            alert(`Ви купили ${product.name}`);
+            alert(`Ви купили ${product.name} ${product.description}`);
             renderProducts();
             renderProductsDetails();
         }
