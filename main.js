@@ -3,14 +3,14 @@ const productsContainer = document.querySelector('.products');
 const productDetailsContainer = document.querySelector('.product-details');
 
 const categories = [
-    { id: 1, name: 'Електроніка' },
+    { id: 1, name: 'Книги' },
     { id: 2, name: 'Одяг' },
     { id: 3, name: 'Їжа' },
 ];
 
 const products = [
-    { id: 1, name: 'Смартфон', categoryId: 1, price: 5000, description: 'Мобільний телефон Samsung Galaxy A04'},
-    { id: 2, name: 'Ноутбук', categoryId: 1, price: 15000, description: 'Ноутбук Lenovo IdeaPad 1 15IGL7'},
+    { id: 1, name: 'Роман', categoryId: 1, price: 120, description: 'Володар перснів'},
+    { id: 2, name: 'Детектив', categoryId: 1, price: 125, description: 'Пригоди Шерлока Холмса'},
     { id: 3, name: 'Футболка', categoryId: 2, price: 500, description: 'Футболка Fila 107749-Z4 56-58'},
     { id: 4, name: 'Штани', categoryId: 2, price: 600, description: 'Штани C&A FL2133310-Beige XL'},
     { id: 5, name: 'Піца', categoryId: 3, price: 250, description: 'Піца Техас'},
