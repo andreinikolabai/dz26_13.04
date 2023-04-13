@@ -19,7 +19,7 @@ const products = [
 
 const renderCategories = () => {
     console.log('renderCategories');
-    categoriesContainer.innerHTML = '';
+    categoriesContainer.innerHTML = '<h4>Перелік категорій</h4>';
 
     categories.forEach(category => {
         const categoryElement = document.createElement('div');
@@ -35,7 +35,7 @@ const renderCategories = () => {
 
 const renderProducts = (categoryId) => {
     console.log('renderProducts');
-    productsContainer.innerHTML = '';
+    productsContainer.innerHTML = '<h4>Товари категорії</h4>';
     if (!categoryId) {
         return;
     }
